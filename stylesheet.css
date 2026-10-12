@@ -157,7 +157,7 @@ span.highlight {
 
 .publication-comparison-labels span:last-child {
   color: #222;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @media (max-width: 600px) {
