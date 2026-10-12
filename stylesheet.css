@@ -129,3 +129,49 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.publication-video {
+  display: block;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+}
+
+.publication-media-caption,
+.publication-comparison-labels {
+  width: 180px;
+  max-width: 100%;
+  margin-top: 6px;
+  color: #666;
+  text-align: center;
+  font-size: 11px;
+}
+
+.publication-comparison-labels {
+  display: flex;
+}
+
+.publication-comparison-labels span {
+  flex: 1;
+}
+
+.publication-comparison-labels span:last-child {
+  color: #222;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .new-publication,
+  .new-publication td {
+    display: block;
+  }
+
+  .new-publication td {
+    width: auto !important;
+    padding: 12px 20px !important;
+  }
+
+  .new-publication td:first-child {
+    padding-bottom: 0 !important;
+  }
+}
