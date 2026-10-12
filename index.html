@@ -88,20 +88,19 @@ var _hmt = _hmt || [];
               <a href="papers/ExRL.pdf">[PDF]</a>
               <a href="https://exrl-anonymous.pyrite-apogee.workers.dev/">[Website]</a>
               <a href="https://anonymous.4open.science/r/ExRL-code/">[Code]</a>
-              <a href="videos/exrl-uncut-training-full.mp4">[Uncut training]</a>
-              <p>Learning when to replan improves diverse robot policies with little online interaction, while offering greater behavioral flexibility for longer action chunks.</p>
+              <p>Sample-efficient policy improvement via RL over execution length, offering greater behavioral flexibility as action chunks grow longer.</p>
             </td>
           </tr>
 
           <tr class="new-publication" id="cgdo-publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <a href="videos/cgdo-stack-full.mp4" aria-label="Watch the base policy and CGDO real-robot stacking comparison">
-                <video class="publication-video" autoplay muted loop playsinline preload="metadata" poster="images/cgdo-stack.jpg" aria-label="Base policy on the left and CGDO on the right, stacking blocks at the same playback speed">
+              <a href="videos/cgdo-stack-full.mp4" aria-label="Watch the DP and DP+CGDO real-robot stacking comparison">
+                <video class="publication-video" autoplay muted loop playsinline preload="metadata" poster="images/cgdo-stack.jpg" aria-label="DP on the left and DP+CGDO on the right, stacking blocks at the same playback speed">
                   <source src="videos/cgdo-stack-comparison.mp4" type="video/mp4">
-                  <img src="images/cgdo-stack.jpg" width="180" alt="Base policy and CGDO real-robot stacking speed comparison">
+                  <img src="images/cgdo-stack.jpg" width="180" alt="DP and DP+CGDO real-robot stacking speed comparison">
                 </video>
               </a>
-              <div class="publication-comparison-labels"><span>Base policy</span><span>CGDO</span></div>
+              <div class="publication-comparison-labels"><span>DP</span><span>DP+CGDO</span></div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>Pushing Your Robot Policy toward Its Speed Limits via Coupled Gain&ndash;Duration Optimization</papertitle>
@@ -117,8 +116,7 @@ var _hmt = _hmt || [];
               <a href="papers/CGDO.pdf">[PDF]</a>
               <a href="https://cgdo-anonymous.pyrite-apogee.workers.dev/">[Website]</a>
               <a href="https://cgdo-anonymous.pyrite-apogee.workers.dev/code/">[Code]</a>
-              <a href="videos/cgdo-stack-full.mp4">[Speed comparison]</a>
-              <p>Learning controller gains and per-action durations together speeds up pretrained robot policies without changing their predicted actions.</p>
+              <p>Accelerating robots beyond demonstration speeds via RL at the controller level, while keeping the pretrained policy fixed.</p>
             </td>
           </tr>
 
